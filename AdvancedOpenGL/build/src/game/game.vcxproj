@@ -265,6 +265,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="D:\Benjamin_Lambert\Git\Maths_Workshop\AdvancedOpenGL\src\game\CubeMesh.cpp" />
+    <ClCompile Include="D:\Benjamin_Lambert\Git\Maths_Workshop\AdvancedOpenGL\src\game\CubeObject.cpp" />
     <ClCompile Include="D:\Benjamin_Lambert\Git\Maths_Workshop\AdvancedOpenGL\src\game\Game.cpp" />
     <ClCompile Include="D:\Benjamin_Lambert\Git\Maths_Workshop\AdvancedOpenGL\src\game\SceneMain.cpp" />
     <ClCompile Include="D:\Benjamin_Lambert\Git\Maths_Workshop\AdvancedOpenGL\src\game\Scene_001_Color.cpp" />

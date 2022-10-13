@@ -12,7 +12,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/game/MinSizeRel/game.lib"
+			"path" : "src/game/RelWithDebInfo/game.lib"
 		}
 	],
 	"backtrace" : 1,
@@ -69,7 +69,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD"
 				},
 				{
 					"fragment" : "-std:c++17"
@@ -128,7 +128,9 @@
 				24,
 				25,
 				26,
-				27
+				27,
+				28,
+				29
 			]
 		}
 	],
@@ -179,12 +181,26 @@
 				24,
 				25,
 				26,
-				27
+				27,
+				28,
+				29
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/game/CubeMesh.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/game/CubeObject.cpp",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
