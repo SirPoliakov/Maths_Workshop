@@ -23,6 +23,7 @@ class CubeObject{
     float x { 0 };
     float y { 0 };
     Matrix4 transform {};
+    float newXPosition { 0 };
 
     CubeMesh* cubeMesh{nullptr};
 };

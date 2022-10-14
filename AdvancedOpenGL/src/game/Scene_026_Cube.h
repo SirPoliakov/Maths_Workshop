@@ -5,7 +5,7 @@
 
 #include "../engine/Scene.h"
 #include "../engine/Assets.h"
-
+#include "CubeObject.h"
 
 class Scene_026_Cube : public Scene {
 public:
@@ -22,12 +22,13 @@ public:
 
 private:
     Game *game;
-    GLuint vao;
-    GLuint buffer;
-    Matrix4 transform;
-    Matrix4 projection;
 
+    CubeMesh* cubeMesh;
+    Matrix4 projection;
     Shader shader;
+
+    vector<CubeObject> cubes;
+    //float newXPosition { 0 };
 };
 
 

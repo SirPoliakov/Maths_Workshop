@@ -8,8 +8,9 @@ CubeObject::CubeObject(float xP, float yP, CubeMesh* cubeMeshP) : cubeMesh { cub
 }
 
 void CubeObject::update(){
-    // x = x + 0.01f;
-    // setPosition(x, y);
+    float formerXPosition = getX();
+    newXPosition = formerXPosition + 0.02f;
+    setPosition(newXPosition, getY());
 }
 
 void CubeObject::draw(Shader& shader){
