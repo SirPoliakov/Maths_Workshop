@@ -28,10 +28,10 @@ C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake
 C:/Program Files/CMake/share/cmake-3.24/Templates/CPackConfig.cmake.in
-D:/Benjamin_Lambert/Git/Maths_Workshop/AdvancedOpenGL/CMakeLists.txt
-D:/Benjamin_Lambert/Git/Maths_Workshop/AdvancedOpenGL/build/CMakeFiles/3.24.2/CMakeCCompiler.cmake
-D:/Benjamin_Lambert/Git/Maths_Workshop/AdvancedOpenGL/build/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake
-D:/Benjamin_Lambert/Git/Maths_Workshop/AdvancedOpenGL/build/CMakeFiles/3.24.2/CMakeRCCompiler.cmake
-D:/Benjamin_Lambert/Git/Maths_Workshop/AdvancedOpenGL/build/CMakeFiles/3.24.2/CMakeSystem.cmake
-D:/Benjamin_Lambert/Git/Maths_Workshop/AdvancedOpenGL/external/SDL2-2.0.12/SDL2Config.cmake
-D:/Benjamin_Lambert/Git/Maths_Workshop/AdvancedOpenGL/external/glew-2.1.0/glew-config.cmake
+C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL/CMakeLists.txt
+C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL/build/CMakeFiles/3.24.2/CMakeCCompiler.cmake
+C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL/build/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake
+C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL/build/CMakeFiles/3.24.2/CMakeRCCompiler.cmake
+C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL/build/CMakeFiles/3.24.2/CMakeSystem.cmake
+C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL/external/SDL2-2.0.12/SDL2Config.cmake
+C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL/external/glew-2.1.0/glew-config.cmake

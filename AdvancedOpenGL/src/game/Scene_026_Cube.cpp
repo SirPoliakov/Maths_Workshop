@@ -39,6 +39,8 @@ void Scene_026_Cube::load() {
     shader = Assets::getShader(SHADER_ID(SHADER_NAME));
 
     cubes.emplace_back(0.0f, 0.0f, cubeMesh);
+    // cubes.emplace_back(0.6f, 0.0f, cubeMesh);
+    // cubes.emplace_back(1.2f, 0.0f, cubeMesh);
 }
 
 void Scene_026_Cube::clean() {
@@ -53,6 +55,22 @@ void Scene_026_Cube::resume() {
 }
 
 void Scene_026_Cube::handleEvent(const InputState &inputState) {
+    if (inputState.keyboardState.isJustPressed(SDL_SCANCODE_W))
+    {
+        cubes[0].setDir(HAUT);
+    }
+    if (inputState.keyboardState.isJustPressed(SDL_SCANCODE_S))
+    {
+        cubes[0].setDir(BAS);
+    }
+    if (inputState.keyboardState.isJustPressed(SDL_SCANCODE_A))
+    {
+        cubes[0].setDir(GAUCHE);
+    }
+    if (inputState.keyboardState.isJustPressed(SDL_SCANCODE_D))
+    {
+        cubes[0].setDir(DROITE);
+    }
 }
 
 void Scene_026_Cube::update(float dt) {

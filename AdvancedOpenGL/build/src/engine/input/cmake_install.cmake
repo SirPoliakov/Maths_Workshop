@@ -1,4 +1,4 @@
-# Install script for directory: D:/Benjamin_Lambert/Git/Maths_Workshop/AdvancedOpenGL/src/engine/input
+# Install script for directory: C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL/src/engine/input
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

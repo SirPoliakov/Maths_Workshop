@@ -8,9 +8,23 @@ CubeObject::CubeObject(float xP, float yP, CubeMesh* cubeMeshP) : cubeMesh { cub
 }
 
 void CubeObject::update(){
-    float formerXPosition = getX();
-    newXPosition = formerXPosition + 0.02f;
-    setPosition(newXPosition, getY());
+    if(direction == DROITE){
+        float formerXPosition = getX();
+        newXPosition = formerXPosition + 0.02f;
+        setPosition(newXPosition, getY());
+    }else if(direction == GAUCHE){
+        float formerXPosition = getX();
+        newXPosition = formerXPosition - 0.02f;
+        setPosition(newXPosition, getY());
+    }else if(direction == HAUT){
+        float formerYPosition = getY();
+        newYPosition = formerYPosition + 0.02f;
+        setPosition(getX(), newYPosition);
+    }else if(direction == BAS){
+        float formerYPosition = getY();
+        newYPosition = formerYPosition - 0.02f;
+        setPosition(getX(), newYPosition);
+    }
 }
 
 void CubeObject::draw(Shader& shader){
@@ -25,5 +39,5 @@ void CubeObject::setPosition(float xP, float yP) {
 }
 
 Matrix4 CubeObject::computeTransform() {
-    return Matrix4::createTranslation(Vector3(x, y, -4.0f));
+    return Matrix4::createTranslation(Vector3(x, y, -12.0f));
 }

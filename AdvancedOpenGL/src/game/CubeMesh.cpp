@@ -61,9 +61,9 @@
     glBindBuffer(GL_ARRAY_BUFFER, buffer);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertexPositions), vertexPositions, GL_STATIC_DRAW);
 
-    // Setup vertex attribute
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, nullptr);
-    glEnableVertexAttribArray(0);
+    // Setup vertex attribute 
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, nullptr);  // How OpenGL "reads" the datas we just stored upper in the buffer ("Where do we start, 3 by 3, they are floats, normalizable or fixed-points, offset between vertices to ignore any other datas and the first offset if needed ")
+    glEnableVertexAttribArray(0);  // If not, the current value of the attribute is used for all vertices.
  }
 
  void CubeMesh::draw(){

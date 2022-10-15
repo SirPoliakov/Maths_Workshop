@@ -1,4 +1,4 @@
-# Install script for directory: D:/Benjamin_Lambert/Git/Maths_Workshop/AdvancedOpenGL
+# Install script for directory: C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Benjamin_Lambert/Git/Maths_Workshop/AdvancedOpenGL/build/src/engine/cmake_install.cmake")
+  include("C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL/build/src/engine/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Benjamin_Lambert/Git/Maths_Workshop/AdvancedOpenGL/build/src/game/cmake_install.cmake")
+  include("C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL/build/src/game/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Benjamin_Lambert/Git/Maths_Workshop/AdvancedOpenGL/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
