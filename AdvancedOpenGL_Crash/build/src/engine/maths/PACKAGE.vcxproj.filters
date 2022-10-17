@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\af068fe958ae8b796271f280f8b187ab\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3675D3DE-1B01-3CA1-9ABD-412100F22C90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
