@@ -1,2 +1,1 @@
-# OpenGL training
-Some code with OpenGL
+- Use ZQSD to controll cube!
