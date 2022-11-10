@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL
-BuildDirectory: C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build
+SourceDirectory: C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash
+BuildDirectory: C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash"
 MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D91B754C-C553-3BF9-B3B8-A3400E6286A7}</ProjectGuid>
+    <ProjectGuid>{10A9C7EA-2F50-3290-9F4D-48F9072DAE92}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenGLTraining.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenGLTraining</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenGLTraining.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenGLTraining</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OpenGLTraining.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OpenGLTraining</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OpenGLTraining.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OpenGLTraining</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\game;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\maths;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\game;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\maths;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -103,10 +103,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\game;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\maths;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\game;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\maths;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\game;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\maths;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\game;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\maths;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,13 +114,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>src\game\Debug\game.lib;src\engine\Debug\engine.lib;src\engine\maths\Debug\maths.lib;src\engine\input\Debug\input.lib;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\lib\Release\x64\glew32.lib;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\lib\x64\SDL2.lib;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\lib\x64\SDL2main.lib;opengl32.lib;glu32.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>src\game\Debug\game.lib;src\engine\Debug\engine.lib;src\engine\maths\Debug\maths.lib;src\engine\input\Debug\input.lib;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\lib\Release\x64\glew32.lib;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\lib\x64\SDL2.lib;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\lib\x64\SDL2main.lib;opengl32.lib;glu32.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build/Debug/OpenGLTraining.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build/Debug/OpenGLTraining.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build/Debug/OpenGLTraining.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build/Debug/OpenGLTraining.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -129,7 +129,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\game;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\maths;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\game;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\maths;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -146,10 +146,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\game;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\maths;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\game;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\maths;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\game;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\maths;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\game;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\maths;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -157,13 +157,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>src\game\Release\game.lib;src\engine\Release\engine.lib;src\engine\maths\Release\maths.lib;src\engine\input\Release\input.lib;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\lib\Release\x64\glew32.lib;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\lib\x64\SDL2.lib;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\lib\x64\SDL2main.lib;opengl32.lib;glu32.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>src\game\Release\game.lib;src\engine\Release\engine.lib;src\engine\maths\Release\maths.lib;src\engine\input\Release\input.lib;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\lib\Release\x64\glew32.lib;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\lib\x64\SDL2.lib;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\lib\x64\SDL2main.lib;opengl32.lib;glu32.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build/Release/OpenGLTraining.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build/Release/OpenGLTraining.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build/Release/OpenGLTraining.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build/Release/OpenGLTraining.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -172,7 +172,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\game;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\maths;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\game;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\maths;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -189,10 +189,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\game;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\maths;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\game;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\maths;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\game;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\maths;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\game;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\maths;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -200,13 +200,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>src\game\MinSizeRel\game.lib;src\engine\MinSizeRel\engine.lib;src\engine\maths\MinSizeRel\maths.lib;src\engine\input\MinSizeRel\input.lib;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\lib\Release\x64\glew32.lib;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\lib\x64\SDL2.lib;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\lib\x64\SDL2main.lib;opengl32.lib;glu32.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>src\game\MinSizeRel\game.lib;src\engine\MinSizeRel\engine.lib;src\engine\maths\MinSizeRel\maths.lib;src\engine\input\MinSizeRel\input.lib;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\lib\Release\x64\glew32.lib;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\lib\x64\SDL2.lib;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\lib\x64\SDL2main.lib;opengl32.lib;glu32.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build/MinSizeRel/OpenGLTraining.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build/MinSizeRel/OpenGLTraining.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build/MinSizeRel/OpenGLTraining.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build/MinSizeRel/OpenGLTraining.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -215,7 +215,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\game;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\maths;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\game;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\maths;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -231,10 +231,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\game;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\maths;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\game;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\maths;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\include;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\game;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\maths;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\include;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\game;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\maths;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -242,13 +242,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>src\game\RelWithDebInfo\game.lib;src\engine\RelWithDebInfo\engine.lib;src\engine\maths\RelWithDebInfo\maths.lib;src\engine\input\RelWithDebInfo\input.lib;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\lib\Release\x64\glew32.lib;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\lib\x64\SDL2.lib;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\lib\x64\SDL2main.lib;opengl32.lib;glu32.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>src\game\RelWithDebInfo\game.lib;src\engine\RelWithDebInfo\engine.lib;src\engine\maths\RelWithDebInfo\maths.lib;src\engine\input\RelWithDebInfo\input.lib;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\lib\Release\x64\glew32.lib;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\lib\x64\SDL2.lib;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\lib\x64\SDL2main.lib;opengl32.lib;glu32.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build/RelWithDebInfo/OpenGLTraining.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build/RelWithDebInfo/OpenGLTraining.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build/RelWithDebInfo/OpenGLTraining.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build/RelWithDebInfo/OpenGLTraining.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -256,11 +256,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL -BC:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build --check-stamp-file C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash -BC:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build --check-stamp-file C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -268,12 +268,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.24\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Templates\CPackConfig.cmake.in;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\SDL2Config.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\glew-config.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.24\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Templates\CPackConfig.cmake.in;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\SDL2Config.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\glew-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL -BC:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build --check-stamp-file C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash -BC:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build --check-stamp-file C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -281,12 +281,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.24\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Templates\CPackConfig.cmake.in;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\SDL2Config.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\glew-config.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.24\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Templates\CPackConfig.cmake.in;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\SDL2Config.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\glew-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL -BC:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build --check-stamp-file C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash -BC:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build --check-stamp-file C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -294,12 +294,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.24\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Templates\CPackConfig.cmake.in;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\SDL2Config.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\glew-config.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.24\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Templates\CPackConfig.cmake.in;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\SDL2Config.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\glew-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL -BC:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build --check-stamp-file C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash -BC:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build --check-stamp-file C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -307,35 +307,35 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.24\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Templates\CPackConfig.cmake.in;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\SDL2-2.0.12\SDL2Config.cmake;C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\external\glew-2.1.0\glew-config.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.24\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Templates\CPackConfig.cmake.in;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\SDL2-2.0.12\SDL2Config.cmake;C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\external\glew-2.1.0\glew-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\main.cpp" />
+    <ClCompile Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\ZERO_CHECK.vcxproj">
-      <Project>{6750D15A-5B6A-3E97-BCD7-9D0C80AECDF7}</Project>
+    <ProjectReference Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\ZERO_CHECK.vcxproj">
+      <Project>{D36A8983-FF2B-33D9-A8EA-AA06F80D62D4}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\src\engine\engine.vcxproj">
-      <Project>{AE5BBAD1-2D3F-34C6-A006-1C7255EEDD16}</Project>
+    <ProjectReference Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\src\engine\engine.vcxproj">
+      <Project>{D5D6F276-8DCD-357B-9061-4E158B13F812}</Project>
       <Name>engine</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\src\game\game.vcxproj">
-      <Project>{3D6E3219-0F93-3EED-B5A9-5AF05F04C576}</Project>
+    <ProjectReference Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\src\game\game.vcxproj">
+      <Project>{0B000DD3-BA99-3BBD-AF93-DB794A4100D7}</Project>
       <Name>game</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\src\engine\input\input.vcxproj">
-      <Project>{C47585D2-1FDB-3015-B2F9-68412F3414AF}</Project>
+    <ProjectReference Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\src\engine\input\input.vcxproj">
+      <Project>{034618A4-6B96-3A98-A5BA-7391DA0D74D2}</Project>
       <Name>input</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\build\src\engine\maths\maths.vcxproj">
-      <Project>{667712FD-9AE9-39E5-B16D-302081A5E8B2}</Project>
+    <ProjectReference Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\build\src\engine\maths\maths.vcxproj">
+      <Project>{A0786B60-8605-350C-9B31-01E669613A00}</Project>
       <Name>maths</Name>
     </ProjectReference>
   </ItemGroup>

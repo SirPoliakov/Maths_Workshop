@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/src/engine
+# Install script for directory: C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/src/engine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build/src/engine/maths/cmake_install.cmake")
+  include("C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build/src/engine/maths/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/build/src/engine/input/cmake_install.cmake")
+  include("C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/build/src/engine/input/cmake_install.cmake")
 endif()
 

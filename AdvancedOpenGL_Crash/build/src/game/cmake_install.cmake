@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jujuy/Desktop/TEMP/AdvancedOpenGL/src/game
+# Install script for directory: C:/Users/jujuy/Documents/Git/Maths_Workshop/AdvancedOpenGL_Crash/src/game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

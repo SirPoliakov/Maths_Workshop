@@ -1,43 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\Assets.cpp">
+    <ClCompile Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\Assets.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\Color.cpp">
+    <ClCompile Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\Color.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\ComputeShader.cpp">
+    <ClCompile Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\ComputeShader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\Log.cpp">
+    <ClCompile Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\MeshObject.cpp">
+    <ClCompile Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\MeshObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\Shader.cpp">
+    <ClCompile Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\Shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\Texture.cpp">
+    <ClCompile Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\Texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\TextureKtx.cpp">
+    <ClCompile Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\TextureKtx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\Timer.cpp">
+    <ClCompile Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\Timer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\WindowSdl.cpp">
+    <ClCompile Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\WindowSdl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jujuy\Desktop\TEMP\AdvancedOpenGL\src\engine\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL_Crash\src\engine\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{93965BD6-E888-3A73-B241-1AB254635289}</UniqueIdentifier>
+      <UniqueIdentifier>{479F99A7-A11C-3F6C-9E2E-6C093402356D}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
