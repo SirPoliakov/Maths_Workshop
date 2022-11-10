@@ -295,6 +295,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL\src\game\Scene_024_ComputeShaderRaytacing.cpp" />
     <ClCompile Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL\src\game\Scene_025_ComputeShaderBoids.cpp" />
     <ClCompile Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL\src\game\Scene_026_Cube.cpp" />
+    <ClCompile Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL\src\game\Scene_027_Planete.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL\build\ZERO_CHECK.vcxproj">

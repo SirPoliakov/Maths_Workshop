@@ -91,6 +91,9 @@
     <ClCompile Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL\src\game\Scene_026_Cube.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL\src\game\Scene_027_Planete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\jujuy\Documents\Git\Maths_Workshop\AdvancedOpenGL\src\game\CMakeLists.txt" />
