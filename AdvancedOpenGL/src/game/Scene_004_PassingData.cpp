@@ -24,6 +24,7 @@ void Scene_004_PassingData::load() {
     std::srand((int) std::time(nullptr));
     Assets::loadShader("assets/shaders/004_PassingData.vert", "assets/shaders/004_PassingData.frag", "", "", "", "004_PassingData");
     shader = Assets::getShader("004_PassingData");
+    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
     glCreateVertexArrays(1, &vao);
     glBindVertexArray(vao);
 }

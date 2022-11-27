@@ -19,8 +19,8 @@
 #define SHADER_COMP(s) PATH3(SHADER_PATH, s, EXT_COMP)
 #define SHADER_ID(s) STR(s)
 
-#define SCENE_NAME Scene_026_Cube
-#define SHADER_NAME IDENT(026_Cube)
+#define SCENE_NAME Scene_027_Planete
+#define SHADER_NAME IDENT(027_Planete)
 
 /**
  * Scene_026_Cube

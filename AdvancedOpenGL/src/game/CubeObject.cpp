@@ -1,6 +1,7 @@
 #include "../engine/Shader.h"
 #include "CubeObject.h"
 #include "CubeMesh.h"
+#include "../engine/Timer.h"
 
 CubeObject::CubeObject(float xP, float yP, CubeMesh* cubeMeshP) : cubeMesh { cubeMeshP }
 {
@@ -8,23 +9,15 @@ CubeObject::CubeObject(float xP, float yP, CubeMesh* cubeMeshP) : cubeMesh { cub
 }
 
 void CubeObject::update(){
-    if(direction == DROITE){
-        float formerXPosition = getX();
-        newXPosition = formerXPosition + 0.02f;
-        setPosition(newXPosition, getY());
-    }else if(direction == GAUCHE){
-        float formerXPosition = getX();
-        newXPosition = formerXPosition - 0.02f;
-        setPosition(newXPosition, getY());
-    }else if(direction == HAUT){
-        float formerYPosition = getY();
-        newYPosition = formerYPosition + 0.02f;
-        setPosition(getX(), newYPosition);
-    }else if(direction == BAS){
-        float formerYPosition = getY();
-        newYPosition = formerYPosition - 0.02f;
-        setPosition(getX(), newYPosition);
-    }
+
+   std::cout <<Timer::getTimeSinceStart()<<std::endl;
+        const float t = Maths::sin(Timer::getTimeSinceStart() * 0.5f) - 0.8f;
+    
+    // transform = transform
+    //              * Matrix4::createRotationY(1 * Maths::toRadians(1.0f));
+    float y = Maths::sin(Timer::getTimeSinceStart() * 0.5f);
+    float x = Maths::cos(Timer::getTimeSinceStart() * 0.5f);
+    transform = Matrix4::createTranslation(Vector3(x,y,-12.0f)) *   Matrix4::createRotationY(t * Maths::toRadians(180.0f)) * Matrix4::createRotationX(t * Maths::toRadians(45.0f)); ;//setPosition(x, y);
 }
 
 void CubeObject::draw(Shader& shader){

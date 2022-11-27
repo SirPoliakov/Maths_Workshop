@@ -17,12 +17,6 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "game::@237b513620d2b2ecc71d"
-		},
-		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
 			"id" : "OpenGLTraining::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -33,6 +27,12 @@
 		},
 		{
 			"id" : "input::@d890401496fc5cc61df8"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "game::@237b513620d2b2ecc71d"
 		}
 	],
 	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",

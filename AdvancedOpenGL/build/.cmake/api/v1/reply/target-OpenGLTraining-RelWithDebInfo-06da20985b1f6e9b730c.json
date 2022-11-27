@@ -110,13 +110,6 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "game::@237b513620d2b2ecc71d"
-		},
-		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 2,
 			"id" : "engine::@d30147da1c6e0503853c"
 		},
 		{
@@ -126,6 +119,13 @@
 		{
 			"backtrace" : 2,
 			"id" : "input::@d890401496fc5cc61df8"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "game::@237b513620d2b2ecc71d"
 		}
 	],
 	"id" : "OpenGLTraining::@6890427a1f51a3e7e1df",

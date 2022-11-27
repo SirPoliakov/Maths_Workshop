@@ -10,6 +10,7 @@ class CubeMesh{
     void clean();
 
     private:
+    GLuint EBO;
     GLuint vao;
     GLuint buffer;
 };

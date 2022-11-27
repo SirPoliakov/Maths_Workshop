@@ -2,7 +2,9 @@
 #define SCENE_027_PLANETE_H
 #include "../engine/Scene.h"
 #include "../engine/Assets.h"
-#include "CubeObject.h"
+#include "CubeMesh.h"
+
+class CubeObject;
 
 class Scene_027_Planete : public Scene {
 public:
@@ -19,9 +21,14 @@ public:
 
 private:
     Game *game;
-    GLuint vao;
-    GLuint buffer;
+    GLuint VAO;
     Shader shader;
+    CubeMesh myCubeMesh;
+    CubeObject* myObject;
+    Matrix4 projection;
+    float interp_frac;
+    float innerTesVal;
+    float outerTesVal;
 
 
 };

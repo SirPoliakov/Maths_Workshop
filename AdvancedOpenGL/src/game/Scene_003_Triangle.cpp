@@ -22,10 +22,13 @@ void Scene_003_Triangle::setGame(Game *_game) {
 
 void Scene_003_Triangle::load() {
     std::srand((int) std::time(nullptr));
-    Assets::loadShader("assets/shaders/003_Triangle.vert", "assets/shaders/003_Triangle.frag", "", "", "", "003_Triangle");
-    shader = Assets::getShader("003_Triangle");
+    Assets::loadShader("assets/shaders/003_triangle.vert", "assets/shaders/003_triangle.frag", "", "", "", "003_triangle");
+    
     glCreateVertexArrays(1, &vao);
     glBindVertexArray(vao);
+    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+
+    shader = Assets::getShader("003_triangle");
 }
 
 void Scene_003_Triangle::clean() {
@@ -49,5 +52,6 @@ void Scene_003_Triangle::draw() {
     glClearBufferfv(GL_COLOR, 0, bgColor);
 
     shader.use();
-    glDrawArrays(GL_TRIANGLES, 0, 3);
+    glPointSize(5.0f);
+    glDrawArrays(GL_TRIANGLES, 0, 4);
 }
