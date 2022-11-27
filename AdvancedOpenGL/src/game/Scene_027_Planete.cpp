@@ -45,7 +45,7 @@ void Scene_027_Planete::load()
     myCubeMesh.load();
     myObject = new CubeObject(0,0, &myCubeMesh);
 
-    glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
+    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
     glEnable(GL_DEPTH_TEST);
 }
 
